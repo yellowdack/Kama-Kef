@@ -27,4 +27,6 @@ h1 {
 
 .Logo {
   background-image: url(../src/image/logo.png);
+  width: 100px;
+  height: 100px;
 }

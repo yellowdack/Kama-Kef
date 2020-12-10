@@ -4,7 +4,7 @@ import logo from "../images/logo.png";
 function App() {
   return (
     <div>
-      <img src={logo} alt="Logo" />;
+      <img src={logo} className="Logo" />;
       <h1 className ="h1">Welcome To The Kaman Portal!
       </h1>
     </div>
