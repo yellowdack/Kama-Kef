@@ -5,8 +5,8 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.666;
-  background: #f3f3f3;
-  color: #555;
+  background: #65799b;
+  color:#fff;
 }
 
 .top {
@@ -36,7 +36,6 @@ h1 {
 }
 
 .Logo {
-  background-image: url(../src/image/logo.png);
   width: 100px;
   height: 100px;
   margin: 10px 30px 10px;
@@ -75,4 +74,33 @@ h1 {
 .button-img {
   width: 120px;
  height: 120px
+}
+
+.note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  padding: 10px;
+  width: 240px;
+  margin: 16px;
+  float: left;
+}
+.note h1 {
+  font-size: 1.1em;
+  color: #65799b;
+  margin-bottom: 6px;
+}
+.note p {
+  font-size: 1.1em;
+  color: #65799b;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+
+.img-home {
+  width: 100px;
+  height: 100px;
+  margin: 10px 30px 10px;
 }

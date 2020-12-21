@@ -1,7 +1,8 @@
+
 const functionHomePage =[
   {
     id: 1,
-    img: "./images/script",
+    img:"./images/script.png",
     name: "Scripts"
   },
   {
@@ -10,23 +11,23 @@ const functionHomePage =[
     name: "Tips"
   },
   {
-    id: 2,
-    img: "./images/dashboard",
+    id: 3,
+    img: "../images/logo.png",
     name: "Dashboard"
   },
   {
-    id: 2,
-    img: "./images/dashboard",
+    id: 4,
+    img: "../images/logo.png",
     name: "Table"
   },
   {
-    id: 2,
-    img: "./images/dashboard",
+    id: 5,
+    img: "../images/logo.png",
     name: "Install & Linkes"
   },
   {
-    id: 2,
-    img: "./images/dashboard",
+    id: 6,
+    img: "../images/logo.png",
     name: "Private"
   }
 ];
