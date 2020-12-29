@@ -2,7 +2,7 @@
 const functionHomePage =[
   {
     id: 1,
-    img:"./images/script.png",
+    img:"/images/script.png",
     name: "Scripts"
   },
   {
