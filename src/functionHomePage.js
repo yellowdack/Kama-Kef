@@ -1,34 +1,41 @@
+import dash from "./images/dashboard.png";
 
 const functionHomePage =[
   {
     id: 1,
-    img:"/images/script.png",
-    name: "Scripts"
+    img:"../images/dashboard.png",
+    title: "Scripts",
+    body: "script for you"
   },
   {
     id: 2,
-    img: "./images/dashboard",
-    name: "Tips"
+    img: "dashboard.png",
+    title: "Tips",
+    body: "usefaul dashboored"
   },
   {
     id: 3,
-    img: "../images/logo.png",
-    name: "Dashboard"
+    img: "logo.png",
+    title: "Dashboard",
+    body: ""
   },
   {
     id: 4,
-    img: "../images/logo.png",
-    name: "Table"
+    img: "logo.png",
+    title: "Table",
+    body: ""
   },
   {
     id: 5,
-    img: "../images/logo.png",
-    name: "Install & Linkes"
+    img: "logo.png",
+    title: "Install & Linkes",
+    body: ""
   },
   {
     id: 6,
-    img: "../images/logo.png",
-    name: "Private"
+    img: "logo.png",
+    title: "Private",
+    body: ""
   }
 ];
 export default functionHomePage;

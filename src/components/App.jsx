@@ -2,8 +2,12 @@ import React, {useState, useEffect} from "react";
 import Logo from "../images/logo.png";
 //import ButtonsHome from "./ButtonsHome";
 import Entry from "./Entry";
-import functionHomePage from "../functionHomePage"
 
+import functionHomePage from "../functionHomePage"
+import {BrowserRouter as Router, Route, Switch, Link, Redirect } from "react-router-dom";
+//Pages
+import MainPage from "../pages/MainPage"
+import NotFoundPage from "../pages/404"
 
 function App() {
   const [initialData, setInitialData] = useState([{}])
@@ -13,19 +17,16 @@ function App() {
       response => response.json()
     ).then(data => console.log(data))
   }, []);
-
   return (
     <div>
       <img src={Logo} className="Logo" />
-      <h1 className ="h1">Welcome to Kaman Portal
-      </h1>
-      {functionHomePage.map(funcTerm => (
-        <Entry
-          key={funcTerm.id}
-          img={funcTerm.img}
-          name={funcTerm.name}
-        />
-    ))}
+      <Router>
+        <Switch>
+        <Route exact path="/" component={MainPage} />
+        <Route path="/tableToo" component={MainPage} />
+        <Route component={NotFoundPage} />
+        </Switch>
+      </Router>
     </div>
   );
 }
