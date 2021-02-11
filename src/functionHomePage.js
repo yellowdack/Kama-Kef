@@ -1,22 +1,22 @@
-import dash from "./images/dashboard.png";
+import Logo from "./images/logo.png";
 
 const functionHomePage =[
   {
     id: 1,
-    img:"../images/dashboard.png",
+    img:"Logo",
     title: "Scripts",
     body: "script for you"
   },
   {
-    id: 2,
-    img: "dashboard.png",
-    title: "Tips",
-    body: "usefaul dashboored"
+    id: 5,
+    img: "logo.png",
+    title: "Install & Linkes",
+    body: ""
   },
   {
     id: 3,
     img: "logo.png",
-    title: "Dashboard",
+    title: "Dashboards",
     body: ""
   },
   {
@@ -26,10 +26,10 @@ const functionHomePage =[
     body: ""
   },
   {
-    id: 5,
-    img: "logo.png",
-    title: "Install & Linkes",
-    body: ""
+    id: 2,
+    img: "dashboard.png",
+    title: "Tips",
+    body: "usefaul dashboored"
   },
   {
     id: 6,

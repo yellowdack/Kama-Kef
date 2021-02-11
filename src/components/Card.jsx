@@ -1,5 +1,7 @@
 import React from 'react';
 import './Card.css';
+import Logo from "../images/logo.png";
+
 
 
 function Card(props) {
@@ -7,7 +9,7 @@ function Card(props) {
     //add class name to card
     <div className='card-container'>
       <div className='image-container'>
-        <img src={require('../images/dashboard.png')} alt='' />
+        <img src={props.img} alt='' />
       </div>
       <div className="card-content">
         <div className="card-title">
@@ -16,9 +18,8 @@ function Card(props) {
         <div className="card-body">
           <p>{props.body}</p>
         </div>
-        </div>
+      </div>
     </div>
-
   )
 }
 

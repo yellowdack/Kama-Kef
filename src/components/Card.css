@@ -1,16 +1,22 @@
 .card-container{
-  width: 370px;
-  height: 500px;
-  margin: 65px;
+  width: 300px;
+  height: 350px;
+  margin: 30px 30px 50px 30px;
   padding: 100px;
-  position: center;
   float: right;
-  border-radius: 10px;
-  /*position: relative;*/
+  position: relative;
   padding: 10px 50px 20px;
-  background-color: white;
+  background-color: #f1f3f8;
   box-shadow:0px 0px 15px -5px;
   animation: ease-in;
+}
+
+#Scripts{
+  margin-right: 30px;
+}
+
+#Tips{
+  margin-right: 30px;
 }
 
 .card-container:hover{
@@ -21,6 +27,8 @@
 .image-container img{
   margin: 30px 20px 0 0;
   height: 200px;
+  width: 300px;
+  align-items: center;
 }
 
 .card-content{
